@@ -3,8 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Sarzana Serramenti – Infissi e serramenti su misura a Sarzana (SP)</title>
-  <meta name="description" content="Sarzana Serramenti a Sarzana (SP): oltre 40 anni di esperienza nella produzione diretta di infissi e serramenti su misura in PVC, alluminio e legno-alluminio. Installazione professionale e consulenza personalizzata.">
+  <meta name="description" content="Sarzana Serramenti a Sarzana (SP): oltre 40 anni di esperienza nella produzione diretta di infissi e serramenti su misura in PVC, alluminio e alluminio-legno. Installazione professionale e consulenza personalizzata.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stili -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,41 +35,97 @@
   </nav>
 </header>
 
-<!-- HERO -->
+<!-- HERO A DUE COLONNE CON IMMAGINE NURITH -->
 <section id="hero">
-  <h2>Serramenti progettati e realizzati su misura delle vostre esigenze</h2>
-  <p>Con oltre 40 anni di esperienza, siamo a Sarzana per offrirti serramenti performanti in PVC, alluminio e legno-alluminio, con installazione professionale e materiali certificati.</p>
+  <div class="hero-content">
+    <span class="hero-badge">Oltre 40 anni di esperienza</span>
+    <h2>Serramenti su misura con finestre Nurith</h2>
+    <p>
+      Progettiamo, produciamo e installiamo serramenti in PVC, alluminio e alluminio-legno,
+      con soluzioni Nurith ad alte prestazioni per isolamento termico, comfort e sicurezza.
+    </p>
 
-  <div class="hero-buttons">
-    <a href="#contatti" class="button">Richiedi un preventivo gratuito</a>
-    <a href="#servizi" class="button secondary">Scopri i nostri servizi</a>
+    <div class="hero-buttons">
+      <a href="#contatti" class="button">Richiedi un preventivo gratuito</a>
+      <a href="#servizi" class="button secondary">Scopri i nostri servizi</a>
+    </div>
+
+    <ul class="hero-highlights">
+      <li>Produzione diretta in laboratorio</li>
+      <li>Installazione professionale certificata</li>
+      <li>Assistenza post-vendita dedicata</li>
+    </ul>
+  </div>
+
+  <div class="hero-image">
+    <div class="hero-image-frame">
+      <img src="hero-nurith.jpg" alt="Finestre Nurith installate in un soggiorno moderno e luminoso">
+    </div>
   </div>
 </section>
 
-<!-- SERVIZI -->
+<!-- SERVIZI CON ICONE SVG -->
 <section id="servizi">
   <h2>I nostri servizi</h2>
+  <p>Seguiamo ogni fase del lavoro: dal sopralluogo alla posa in opera, fino all’assistenza post-vendita.</p>
 
   <div class="service-grid">
-    <div class="service">
-      <h3>Installazione serramenti nuovi</h3>
-      <p>Progettiamo e installiamo infissi moderni e performanti per migliorare isolamento e comfort abitativo.</p>
-    </div>
 
-    <div class="service">
-      <h3>Sostituzione infissi esistenti</h3>
-      <p>Rinnoviamo serramenti datati con soluzioni certificate, senza opere murarie invasive.</p>
-    </div>
+    <article class="service">
+      <div class="service-header">
+        <div class="service-icon">
+          <!-- Icona porta / serramento -->
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="6" y="3" width="12" height="18" rx="1.5"></rect>
+            <circle cx="15" cy="12" r="0.9"></circle>
+          </svg>
+        </div>
+        <h3>Installazione serramenti nuovi</h3>
+      </div>
+      <p>Progettiamo e installiamo infissi moderni in PVC e alluminio, ottimizzati per isolamento termico e acustico.</p>
+    </article>
 
-    <div class="service">
-      <h3>Assistenza e riparazioni</h3>
-      <p>Interventi rapidi su vetri, guarnizioni, ferramenta e regolazioni.</p>
-    </div>
+    <article class="service">
+      <div class="service-header">
+        <div class="service-icon">
+          <!-- Icona sostituzione (frecce) -->
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 8h9l-2.2-2.2L14 5l4 4-4 4-1.2-0.8L15 10H6V8z"></path>
+            <path d="M18 16H9l2.2 2.2L10 19l-4-4 4-4 1.2 0.8L9 14h9v2z"></path>
+          </svg>
+        </div>
+        <h3>Sostituzione infissi esistenti</h3>
+      </div>
+      <p>Sostituiamo serramenti datati con soluzioni Nurith ad alta efficienza, riducendo dispersioni e spifferi.</p>
+    </article>
 
-    <div class="service">
-      <h3>Zanzariere, tapparelle e accessori</h3>
-      <p>Soluzioni integrate per aumentare comfort, sicurezza ed estetica della casa.</p>
-    </div>
+    <article class="service">
+      <div class="service-header">
+        <div class="service-icon">
+          <!-- Icona chiave inglese -->
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 5.3l-3.2 3.2-2.3-0.5-5.7 5.7 1.8 1.8-2 2L6 15.8l2-2 1.8 1.8 5.4-5.4-0.5-2.3L18.7 4 20 5.3z"></path>
+          </svg>
+        </div>
+        <h3>Assistenza e riparazioni</h3>
+      </div>
+      <p>Interventi su vetri, guarnizioni, ferramenta e regolazioni per mantenere i serramenti sempre efficienti.</p>
+    </article>
+
+    <article class="service">
+      <div class="service-header">
+        <div class="service-icon">
+          <!-- Icona zanzariera / rete -->
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="4" y="4" width="16" height="16" rx="1.5" fill="none"></rect>
+            <path d="M4 8h16M4 12h16M4 16h16M8 4v16M12 4v16M16 4v16" stroke-width="0.8"></path>
+          </svg>
+        </div>
+        <h3>Zanzariere, tapparelle e accessori</h3>
+      </div>
+      <p>Zanzariere su misura, tapparelle e sistemi oscuranti per migliorare il comfort della tua casa.</p>
+    </article>
+
   </div>
 
   <a href="servizi.html" class="button">Vai alla pagina Servizi</a>
@@ -74,24 +137,28 @@
   <p>Selezioniamo solo materiali di qualità e collaboriamo con Nurith per offrirti infissi certificati, resistenti e performanti.</p>
 
   <div class="product-grid">
-    <div class="product">
-      <h3>Finestre in PVC</h3>
-    </div>
+    <article class="product">
+      <h3>Finestre in PVC Nurith</h3>
+      <p>Ideali per isolamento termico e acustico, con ampia scelta di finiture e colori.</p>
+    </article>
 
-    <div class="product">
+    <article class="product">
       <h3>Finestre in alluminio</h3>
-    </div>
+      <p>Soluzioni dal design essenziale, robuste e durature, perfette per architetture moderne.</p>
+    </article>
 
-    <div class="product">
+    <article class="product">
       <h3>Portoncini d’ingresso</h3>
-    </div>
+      <p>Estetica, sicurezza e comfort in un’unica soluzione, personalizzabile nei dettagli.</p>
+    </article>
 
-    <div class="product">
-      <h3>Tapparelle motorizzate</h3>
-    </div>
+    <article class="product">
+      <h3>Tapparelle e sistemi oscuranti</h3>
+      <p>Sistemi manuali e motorizzati per proteggere la casa da luce, calore e intrusioni.</p>
+    </article>
   </div>
 
-  <a href="prodotti.html" class="button">Scopri tutti i prodotti</a>
+  <a href="prodotti.html" class="button secondary-link">Scopri tutti i prodotti</a>
 </section>
 
 <!-- WHY CHOOSE US -->
@@ -108,16 +175,15 @@
 <!-- TESTIMONIAL -->
 <section id="testimonial">
   <h2>Cosa dicono i nostri clienti</h2>
-
-  <blockquote>«Abbiamo sostituito tutti gli infissi: ottimo lavoro, puntualità e professionalità.» – Cliente di Sarzana</blockquote>
-  <blockquote>«Risparmio energetico immediato e infissi di alta qualità.» – Cliente della Spezia</blockquote>
+  <blockquote>«Abbiamo sostituito tutti gli infissi con serramenti Nurith: ottimo lavoro, puntualità e professionalità.» – Cliente di Sarzana</blockquote>
+  <blockquote>«Risparmio energetico immediato e infissi di alta qualità. Il lavoro è stato rapido e pulito.» – Cliente della Spezia</blockquote>
 </section>
 
 <!-- BLOG -->
 <section id="blog">
   <h2>Dal nostro blog</h2>
   <p>Guide pratiche su serramenti, isolamento e manutenzione della casa.</p>
-  <a href="blog.html" class="button">Vai al blog</a>
+  <a href="blog.html" class="button secondary-link">Vai al blog</a>
 </section>
 
 <!-- FOOTER -->
@@ -129,7 +195,7 @@
     <p>&copy; 2025 Sarzana Serramenti. Tutti i diritti riservati.</p>
 
     <nav>
-      <a href="privacy.html">Privacy</a> | 
+      <a href="privacy.html">Privacy</a> |
       <a href="cookie.html">Cookie</a>
     </nav>
   </div>
